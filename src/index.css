@@ -1,0 +1,84 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(194, 208, 229);
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+   margin: 0;
+   user-select: none;
+}
+
+span {
+   user-select: none;
+}
+
+.main {
+   min-height: 100vh;
+   text-align: center;
+   padding: 30px;
+}
+
+.main__title {
+   margin: 0 0 20px 0;
+}
+
+.main-continents {
+   max-width: 1900px;
+   margin: 0 auto;
+   text-transform: capitalize;
+}
+
+.main-continents__name {
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 5px;
+   text-align: left;
+}
+
+.main-continents__title {
+   padding: 15px;
+   background-color: #fff;
+   border: 1px solid rgb(71, 58, 73);
+   border-radius: 5px;
+   margin-bottom: 5px;
+   cursor: pointer;
+
+}
+
+.main-continents__country {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-left: 10px;
+}
+
+.main-continents__country-name {
+   cursor: pointer;
+   font-size: 25px;
+   background-color: #fff;
+   border: 1px solid rgb(71, 58, 73);
+   border-radius: 3px;
+   padding: 10px;
+   margin-bottom: 5px;
+}
+
+.main-continents__language {
+   font-size: 23px;
+   font-weight: 300;
+   border: 1px solid rgb(71, 58, 73);
+   background-color: rgb(211, 223, 233);
+   padding: 5px;
+   margin: 0 0 5px 20px;
+   cursor: pointer;
+}
